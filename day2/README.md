@@ -5,3 +5,6 @@
 3. Booleans in Python have a capital first character. i.e: `True` and `False`
 4. The function `type(object)` can be used to get what's the type of the object.
 5. Some casting functions: `int()`, `str()` and `float()`.
+6. Division between integers produces a `float` as result.
+7. `**` is an exponent operator. e.g.: `2 ** 3 => 8`
+8. Some operators have the same priority and when multiple operators with the same priority are in the same expression the left operator precedes the right one.

@@ -8,3 +8,7 @@
 6. Division between integers produces a `float` as result.
 7. `**` is an exponent operator. e.g.: `2 ** 3 => 8`
 8. Some operators have the same priority and when multiple operators with the same priority are in the same expression the left operator precedes the right one.
+9. Casting from float to int will truncate all the decimal values. Use `round(n)` to round a float to a whole int or `round(n, d)` to round `n` up to `d` decimal values.
+10. `//` performs integer division.
+11. `+=`, `-=`, `*=` and `/=` can be used in Python.
+12. F-Strings are more convenient to print values other than strings as part of a meesage. e.g.: `print(f"your score is {score}")`

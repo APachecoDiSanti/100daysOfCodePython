@@ -6,3 +6,5 @@
 5. After `self` in the `__init__` function we can add parameters to use in the function (to set the attributes).
 6. The convention is for the constructor parameters to be called the same as the class attributes they will be assigned to.
 7. To assign a value to an attribute in a constructor use `self.attribute_name = value` (e.g.: `self.id = id`)
+8. Methods are function definitions inside a class. To call a method use the object dot notation (e.g.: `car.accelerate()`)
+9. All methods need to have as their first parameter `self` that is the object that called the method.

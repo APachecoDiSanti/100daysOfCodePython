@@ -8,3 +8,4 @@
 7. To assign a value to an attribute in a constructor use `self.attribute_name = value` (e.g.: `self.id = id`)
 8. Methods are function definitions inside a class. To call a method use the object dot notation (e.g.: `car.accelerate()`)
 9. All methods need to have as their first parameter `self` that is the object that called the method.
+10. Python dictionaries have a very similar structure to JSON objects.

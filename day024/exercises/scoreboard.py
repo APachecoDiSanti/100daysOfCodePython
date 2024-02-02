@@ -11,7 +11,9 @@ class Scoreboard(Turtle):
         super().__init__()
         # Attributes
         self.score = 0
-        self.high_score = 0
+        with open("highscore.txt", mode="r") as highscore_file:
+            stored_highscore = highscore_file.read()
+            self.high_score = int(stored_highscore)
         self.y_position = screen_size // 2 - tile_size - FONT_SIZE
 
         self.show_score()
@@ -38,6 +40,8 @@ class Scoreboard(Turtle):
         Reset score to 0 and check if there's a new highscore
         """
         if self.score > self.high_score:
-            self.high_score = self.score
+            with open("highscore.txt", mode="w") as highscore_file:
+                self.high_score = self.score
+                highscore_file.write(str(self.high_score))
         self.score = 0
         self.show_score()

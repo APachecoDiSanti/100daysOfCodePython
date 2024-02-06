@@ -10,3 +10,8 @@
 9. When a function is using unlimited keyword arguments, check the documentation to see what keywords are available and what do they do.
 10. To get values from dictionaries we can also use `dict.get(key)` that will return `None` when `key` is not defined in `dict`.
 11. In TKinter the `command` argument is to provide a function name to call when interacting with the UI component.
+12. Different TKinter layout managers exist such as `pack()`, `place()` and `grid()`.
+13. `pack()` puts each component one below the other starting from the top-center.
+14. `place()` uses `x` and `y` coordinates to place components.
+15. `grid()` uses a grid with a number of rows and columns and has placement that's relative to the other components, where each component uses a grid cell.
+16. You can't mix `grid()` and `pack()` in the same program.

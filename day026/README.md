@@ -5,4 +5,6 @@
 4. Dictionary comprehension: generate a dictionary from another dictionary or a list.
 5. `new_dict = {new_key: new_value for item in list}` create a dictionary from items in a list.
 6. `new_dict = {new_key: new_value for (key, value) in dict.items()}` create a dictionary from key,values from another dictionary.
-7. 6. `new_dict = {new_key: new_value for (key, value) in dict.items() if test}` also add a condition to the items.
+7. `new_dict = {new_key: new_value for (key, value) in dict.items() if test}` also add a condition to the items.
+8. You can loop through a Pandas DataFrame in the same way you loop over a dictionary.
+9. To loop through every row in a DataFrame you use `for (index, row) in data_fram.iterrows()`.

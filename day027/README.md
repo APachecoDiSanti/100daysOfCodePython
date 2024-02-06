@@ -5,3 +5,7 @@
 4. Functions can have default argument values that don't need to be provided when calling the function. (e.g.: `def fun(a=1, b=2, c=3)` can be called without arguments `fun()`).
 5. Unlimited arguments can be passed to a function's parameter defined with an `*` preceding its name. This will be a tuple with all the multiple arguments provided by the caller.
 6. `*args` as a function parameter is also called unlimited positional arguments.
+7. `**kwargs` as a function parameter is used to provide multiple keyword arguments. 
+8. `**kwargs` is a dictionary with the key as the parameter keyword and the value as the argument.
+9. When a function is using unlimited keyword arguments, check the documentation to see what keywords are available and what do they do.
+10. To get values from dictionaries we can also use `dict.get(key)` that will return `None` when `key` is not defined in `dict`.

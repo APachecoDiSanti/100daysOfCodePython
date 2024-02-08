@@ -1,0 +1,7 @@
+google.com | email@example.com | aPassword4google
+udemy.com | email@example.com | 123456
+twitter.com | email@example.com | feelingblue
+asdsad | email@example.com | 213123
+amazon | email@example.com | something
+facebook | email@example.com | metamorphosis
+Instagram | email@example.com | o7UIA9S*C76KjT`

@@ -1,0 +1,4 @@
+MY_LAT = -34.603683
+MY_LONG = -58.381557
+MY_TIMEZONE = "America/Argentina/Buenos_Aires"
+ERROR_MARGIN = 5

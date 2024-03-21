@@ -4,3 +4,4 @@ __pycache__
 .idea/usage.statistics.xml
 .idea/shelf
 */.DS_Store
+**/venv
